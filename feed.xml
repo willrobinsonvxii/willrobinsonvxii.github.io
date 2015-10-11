@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>By Will Sustained</title>
-    <description>This is a public journal. Despite that, it exists solely for my own benefit. I&#39;ll be tracking my progress in the Open Source Society&#39;s [Computer Science Pathway.](https://github.com/open-source-society/computer-science/)
+    <description>This is a public journal. Despite that, it exists solely for my own benefit. I&#39;ll be tracking my progress in the Open Source Society&#39;s Computer Science pathway here, along with random writing selections, musings on life, and poems as I see fit.
 </description>
     <link>http://willrobinsonvxii.github.io/</link>
     <atom:link href="http://willrobinsonvxii.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Oct 2015 14:44:23 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Oct 2015 14:44:23 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Oct 2015 14:47:02 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Oct 2015 14:47:02 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
