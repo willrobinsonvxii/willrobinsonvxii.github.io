@@ -2,8 +2,8 @@
 
 jekyll=$(pwd)
 
-jekyll build
+jekyll build -q
 cd ../willrobinsonvxii.github.io/
 git add .
-git commit -m "Update to site from update.sh"
+git commit -qm "Update to site from update.sh"
 cd $jekyll
