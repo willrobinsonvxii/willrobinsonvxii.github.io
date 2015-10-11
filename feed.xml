@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>By Will Sustained</title>
+    <description>This is a public journal. Despite that, it exists solely for my own benefit. I&quot;&#39;&quot;ll be tracking my progress in the
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Oct 2015 14:13:07 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Oct 2015 14:13:07 -0700</lastBuildDate>
+    <link>http://willrobinsonvxii.github.io/</link>
+    <atom:link href="http://willrobinsonvxii.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 11 Oct 2015 14:40:45 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Oct 2015 14:40:45 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Sun, 11 Oct 2015 06:50:39 -0700</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/10/11/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/10/11/welcome-to-jekyll.html</guid>
+        <link>http://willrobinsonvxii.github.io/jekyll/update/2015/10/11/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://willrobinsonvxii.github.io/jekyll/update/2015/10/11/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
