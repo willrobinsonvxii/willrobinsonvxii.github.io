@@ -6,13 +6,15 @@
 </description>
     <link>http://willrobinsonvxii.github.io/</link>
     <atom:link href="http://willrobinsonvxii.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Oct 2015 15:02:57 -0700</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2015 15:02:57 -0700</lastBuildDate>
+    <pubDate>Mon, 12 Oct 2015 15:09:57 -0700</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2015 15:09:57 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>The Other Day I Had an Idea</title>
         <description>&lt;p&gt;Saturday, October 11th. As usual, I lay mulling over ideas instead of going to sleep. Today’s topic was journaling and accountability. I’ve been meaning to start a journal for some time, but the time has never felt right. So I had a wonderful, &lt;em&gt;terrible&lt;/em&gt;, idea: I would use GitHub to start a blog! Here is the story of how I worked on this all Sunday afternoon and evening without writing a single post.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;I’ve only really started using GitHub in the last three days. I found the Open Source Society’s &lt;a href=&quot;https://github.com/open-source-society/computer-science&quot;&gt;Computer Science path&lt;/a&gt; on Friday via a Reddit post, and pushed got me to finally make an account. A few hours later, and voilà! &lt;a href=&quot;https://github.com/willrobinsonvxii/cs50/&quot;&gt;My first repository&lt;/a&gt;! Creating the repo actually took maybe 5 minutes tops, including tutorials. The bulk of my time was spent writing scripts to make folders, writing different scripts to rename folders after I realized I misspelled all the names, and figuring out why my commits weren’t being credited to me. Hint: &lt;strong&gt;useres&lt;/strong&gt;.github.io.&lt;/p&gt;
 
