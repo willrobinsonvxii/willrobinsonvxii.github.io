@@ -16,12 +16,13 @@ function blog ()
 {
     cd _posts
     today=$(date +"%Y-%m-%d")
-    vim cp ../template.yml $today-$1.md
+    cp ../template.yml $today-$2.md
+    vim $today-$2.md
 }
 
 function main ()
 {
-    $1
+    $1 $@
 }
 
 main $@
