@@ -1,10 +1,28 @@
 #!/bin/bash
 
-jekyll=$(pwd)
+startDir=$(pwd)
 
-jekyll build -q
-cd ../willrobinsonvxii.github.io/
-git add .
-git commit -qm "Update to site from update.sh"
-git push -q
-cd $jekyll
+function publish ()
+{
+    jekyll build -q
+    cd ../willrobinsonvxii.github.io/
+    git add .
+    git commit -qm "Update to site from update.sh"
+    git push -q
+    cd $startDir
+}
+
+function blog ()
+{
+    cd _posts
+    today=$(date +"%Y-%m-%d")
+    vim cp ../template.yml $today-$1.md
+}
+
+function main ()
+{
+    $1
+}
+
+main $@
+     
