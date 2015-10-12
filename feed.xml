@@ -6,9 +6,49 @@
 </description>
     <link>http://willrobinsonvxii.github.io/</link>
     <atom:link href="http://willrobinsonvxii.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Oct 2015 14:54:58 -0700</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2015 14:54:58 -0700</lastBuildDate>
+    <pubDate>Mon, 12 Oct 2015 14:56:01 -0700</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2015 14:56:01 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>The Other Day I Had an Idea</title>
+        <description>&lt;p&gt;Saturday, October 11th. As usual, I lay mulling over ideas instead of going to sleep. Today’s topic was journaling and accountability. I’ve been meaning to start a journal for some time, but the time has never felt right. So I had a wonderful, &lt;em&gt;terrible&lt;/em&gt;, idea: I would use GitHub to start a blog! Here is the story of how I worked on this all Sunday afternoon and evening without writing a single post.&lt;/p&gt;
+
+&lt;p&gt;I’ve only really started using GitHub in the last three days. I found the Open Source Society’s &lt;a href=&quot;https://github.com/open-source-society/computer-science&quot;&gt;Computer Science path&lt;/a&gt; on Friday via a Reddit post, and pushed got me to finally make an account. A few hours later, and voilà! &lt;a href=&quot;https://github.com/willrobinsonvxii/cs50/&quot;&gt;My first repository&lt;/a&gt;! Creating the repo actually took maybe 5 minutes tops, including tutorials. The bulk of my time was spent writing scripts to make folders, writing different scripts to rename folders after I realized I misspelled all the names, and figuring out why my commits weren’t being credited to me. Hint: &lt;strong&gt;useres&lt;/strong&gt;.github.io.&lt;/p&gt;
+
+&lt;p&gt;As you might have surmised by this point, I am interested in programming and computer science. Other pursuits of mine include physics, music, mathematics, books, and I am currently in the process of learning how to draw a straight line.
+&lt;img src=&quot;http://willrobinsonvxii.github.io/assets/straight-lines.jpg&quot; alt=&quot;Straight lines!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Back to the story. On Sunday morning I woke up and decided that I want to use (Jekyll)[http://jekyllrb.com] for my blog. Its website tells me I need Ruby, RubyGems, a Unix-based OS, NodeJs, and Python. To my pleasant surprise, I already had Ruby installed.&lt;/p&gt;
+
+&lt;p&gt;That wasn’t the last surprise on Sunday. Just the last pleasant one.&lt;/p&gt;
+
+&lt;p&gt;Step 1: Install with RubyGems&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gem install jekyll&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Nothing happens.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;C^c
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Eventually, I find out that gem runs in silent mode by default. I disable that, and see lots of html status codes. Apparently, the server that gem downloads files from moved all their files and left redirects in their place. So that adds up to 3 lines of output for ever file GEM tries to download. After waiting for around a minute, gem quits with an error. It helpfully tells me to run &lt;code&gt;brew doctor&lt;/code&gt;. Crap. A couple months ago I screwed up my installation of homebrew beyond belief.&lt;/p&gt;
+
+&lt;p&gt;My memory gets fuzzy at this point. It’s fractured and bits might be suppressed. I vaguely remember having to edit my sudoers file. I definitely had to install the Ruby Version Manager at some point, because once I took care of the other problems I found that I was using Ruby 1.8.3. Despite my Git installation being squeaky clean until Friday, I found permission errors within it.&lt;/p&gt;
+
+&lt;p&gt;By midnight I was hacking together a script that builds the blog, copies it to a repo, and pushes the repo to GitHub. I ended the evening with a function that opens a new blog post in Vim, using a predefined template.&lt;/p&gt;
+
+&lt;p&gt;Which brings me to the end of today’s post.&lt;/p&gt;
+
+&lt;p&gt;Hopefully my formatting worked.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Oct 2015 00:00:00 -0700</pubDate>
+        <link>http://willrobinsonvxii.github.io/2015/10/12/The-Other-Day.html</link>
+        <guid isPermaLink="true">http://willrobinsonvxii.github.io/2015/10/12/The-Other-Day.html</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>

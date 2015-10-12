@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>By Will Sustained</title>
-  <meta name="description" content="My journal. Musings, music, writing and goals.
-">
+  <title>The Other Day I Had an Idea</title>
+  <meta name="description" content="Saturday, October 11th. As usual, I lay mulling over ideas instead of going to sleep. Today’s topic was journaling and accountability. I’ve been meaning to s...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://willrobinsonvxii.github.io/">
+  <link rel="canonical" href="http://willrobinsonvxii.github.io/2015/10/12/The-Other-Day.html">
   <link rel="alternate" type="application/rss+xml" title="By Will Sustained" href="http://willrobinsonvxii.github.io/feed.xml" />
 </head>
 
@@ -55,23 +54,46 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">The Other Day I Had an Idea</h1>
+    <p class="post-meta">Oct 12, 2015</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Oct 12, 2015</span>
+  <article class="post-content">
+    <p>Saturday, October 11th. As usual, I lay mulling over ideas instead of going to sleep. Today’s topic was journaling and accountability. I’ve been meaning to start a journal for some time, but the time has never felt right. So I had a wonderful, <em>terrible</em>, idea: I would use GitHub to start a blog! Here is the story of how I worked on this all Sunday afternoon and evening without writing a single post.</p>
 
-        <h2>
-          <a class="post-link" href="/2015/10/12/The-Other-Day.html">The Other Day I Had an Idea</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>I’ve only really started using GitHub in the last three days. I found the Open Source Society’s <a href="https://github.com/open-source-society/computer-science">Computer Science path</a> on Friday via a Reddit post, and pushed got me to finally make an account. A few hours later, and voilà! <a href="https://github.com/willrobinsonvxii/cs50/">My first repository</a>! Creating the repo actually took maybe 5 minutes tops, including tutorials. The bulk of my time was spent writing scripts to make folders, writing different scripts to rename folders after I realized I misspelled all the names, and figuring out why my commits weren’t being credited to me. Hint: <strong>useres</strong>.github.io.</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>As you might have surmised by this point, I am interested in programming and computer science. Other pursuits of mine include physics, music, mathematics, books, and I am currently in the process of learning how to draw a straight line.
+<img src="http://willrobinsonvxii.github.io/assets/straight-lines.jpg" alt="Straight lines!" /></p>
+
+<p>Back to the story. On Sunday morning I woke up and decided that I want to use (Jekyll)[http://jekyllrb.com] for my blog. Its website tells me I need Ruby, RubyGems, a Unix-based OS, NodeJs, and Python. To my pleasant surprise, I already had Ruby installed.</p>
+
+<p>That wasn’t the last surprise on Sunday. Just the last pleasant one.</p>
+
+<p>Step 1: Install with RubyGems</p>
+
+<pre><code>$ gem install jekyll'
+</code></pre>
+
+<p>Nothing happens.</p>
+
+<pre><code>C^c
+</code></pre>
+
+<p>Eventually, I find out that gem runs in silent mode by default. I disable that, and see lots of html status codes. Apparently, the server that gem downloads files from moved all their files and left redirects in their place. So that adds up to 3 lines of output for ever file GEM tries to download. After waiting for around a minute, gem quits with an error. It helpfully tells me to run <code>brew doctor</code>. Crap. A couple months ago I screwed up my installation of homebrew beyond belief.</p>
+
+<p>My memory gets fuzzy at this point. It’s fractured and bits might be suppressed. I vaguely remember having to edit my sudoers file. I definitely had to install the Ruby Version Manager at some point, because once I took care of the other problems I found that I was using Ruby 1.8.3. Despite my Git installation being squeaky clean until Friday, I found permission errors within it.</p>
+
+<p>By midnight I was hacking together a script that builds the blog, copies it to a repo, and pushes the repo to GitHub. I ended the evening with a function that opens a new blog post in Vim, using a predefined template.</p>
+
+<p>Which brings me to the end of today’s post.</p>
+
+<p>Hopefully my formatting worked.</p>
+
+  </article>
 
 </div>
 
